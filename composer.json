@@ -1,6 +1,6 @@
 {
 
-    "name": "pnal/taoExample",
+    "name": "pnal/tao-ext-example",
     "description" : "for onboarding",
     "type" : "tao-extension",
     "authors" : [
