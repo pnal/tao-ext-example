@@ -3,10 +3,27 @@
 <structures>
 	<structure id="taoExample" name="taoExample" level="178" group="main">
 		<description>Tao Example extension</description>
-		<icon id="icon-folder" src=""/>
+		<icon id="icon-eye-slash" src=""/>
 			<sections>
 				<section id="taoExample_main" name="tao example extension" url="/taoExample/TaoExample/index" />
 				<section id="taoExample_other" name="Template" url="/taoExample/TaoExample/templateExample" />
+				<section id="taoExample_pilots" name="Hello Pilots" url="/taoExample/Greeter/getPilotsList">
+					<trees>
+						<tree name="Pilots"
+							  className="Pilots"
+							  rootNode="http://www.tao.lu/Ontologies/TAOGroup.rdf#Group"
+							  dataUrl="/taoExample/Greeter/getPilotsList"
+						/>
+					</trees>
+					<actions>
+						<action id="vader" name="Vader" url="/taoExample/Greeter/vader" group="tree" context="resource">
+							<icon id="icon-user"/>
+						</action>
+						<action id="obiwan" name="Obi-wan" url="/taoExample/Greeter/obiwan" group="tree" context="resource">
+							<icon id="icon-user"/>
+						</action>
+					</actions>
+				</section>
 			</sections>
 	</structure>
 </structures>
