@@ -3,7 +3,7 @@
 <structures>
 	<structure id="taoExample" name="taoExample" level="178" group="main">
 		<description>Tao Example extension</description>
-		<icon id="icon-delivery" src=""/>
+		<icon id="icon-folder" src=""/>
 			<sections>
 				<section id="taoExample_main" name="tao example extension" url="/taoExample/TaoExample/index" />
 				<section id="taoExample_other" name="Template" url="/taoExample/TaoExample/templateExample" />
