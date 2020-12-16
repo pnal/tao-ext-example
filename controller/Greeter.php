@@ -61,7 +61,7 @@ class Greeter extends \tao_actions_CommonModule
                 )
             );
         }
-        echo son_encode($data);
+        echo json_encode($data);
     }
 
     public function vader()
